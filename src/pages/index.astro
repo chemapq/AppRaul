@@ -76,7 +76,6 @@ h1 {
 }
 
 section {
-    background-color: hsl(240, 15%, 17%);
     height: calc(100vh - 48px);
     margin: 24px;
     border-radius: 12px;
@@ -216,7 +215,7 @@ main {
 .description-text {
         text-align: center;
         margin-top: 16px;
-		color: white;
+		color: var(--text);
     }
     .description-text h2 {
         font-size: 1.5rem;
@@ -246,7 +245,7 @@ main {
 
     .mobile-text {
         display: flex;
-        color: white;
+        color: var(--text);
         width: 100vw;
         padding: 0;
     }
@@ -270,15 +269,16 @@ main {
     }
 
     #click-aqui {
-        background-color: hsl(230, 100%, 69%);
+        background-color: var(--primary);
         border-radius: 12px;
+        color: var(--background);
         margin: 30px;
     }
 
     .titulo-movil {
         font-size: 1.5rem;
         font-weight: 700;
-        color: hsl(230, 100%, 99%);
+        color: var(--text);
     }
     .imageWrapperHero {
         max-width: 100%; /* Ajustar la altura máxima */

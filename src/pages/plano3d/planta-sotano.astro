@@ -119,22 +119,23 @@ document.querySelectorAll(".closeButton").forEach((button)=>{
     .tab-button {
         padding: 12px 24px;
         border: none;
-        background-color: hsl(240, 15%, 27%);
-        color: hsl(240, 15%, 97%);
+        background-color: var(--secondary);
+        color: var(--text);
         cursor: pointer;
         font-size: 16px;
         border-radius: 4px;
-        margin: 0 8px;
+        margin: 4px 1px;
         transition: background-color 0.3s;
     }
     .tab-button.selected {
-        background-color: hsl(230, 100%, 69%);
+        background-color: var(--accent);
+        color: var(--text);
     }
     .tab-button:hover {
-        background-color: hsl(230, 100%, 75%);
+        background-color: var(--accent);
+        color: var(--text);
     }
     section {
-        background-color: hsl(240, 15%, 17%);
         height: calc(100vh - 130px);
         margin: 24px;
         border-radius: 13px;
