@@ -6,16 +6,16 @@ import Layout from "../layouts/Layout.astro";
 <Layout title="Finca Los Ingleses">
     <main>
         <section class="section-pc">
+            <div class="description-text">
+                <h2>Finca Los Ingleses</h2>
+                <p>Tu refugio de lujo en el campo, a un paso de la ciudad. Disfruta de la tranquilidad y la naturaleza sin renunciar a la comodidad y los servicios.</p>
+            </div>
 			<div class='imageWrapperHero'>
 
 
 				
-				<img class="hero" src="exterior1.webp"/>
-			  </div>
-			  <div class="description-text">
-                <h2>Finca Los Ingleses</h2>
-                <p>Tu refugio de lujo en el campo, a un paso de la ciudad. Disfruta de la tranquilidad y la naturaleza sin renunciar a la comodidad y los servicios.</p>
-            </div>
+			    <img class="hero" src="exterior1.webp"/>
+			</div>
 
 			
         </section>
@@ -76,7 +76,6 @@ h1 {
 }
 
 section {
-    height: calc(100vh - 48px);
     margin: 24px;
     border-radius: 12px;
     overflow: visible;
@@ -210,7 +209,6 @@ main {
 .section-pc{
 	display: flex;
 	flex-direction: column;
-	max-height: calc(100vh - 48px);
 }
 .description-text {
         text-align: center;

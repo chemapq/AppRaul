@@ -119,7 +119,7 @@ document.querySelectorAll(".closeButton").forEach((button)=>{
     .tab-button {
         padding: 12px 24px;
         border: none;
-        background-color: var(--secondary);
+        background-color: var(--primary);
         color: var(--text);
         cursor: pointer;
         font-size: 16px;
@@ -128,12 +128,12 @@ document.querySelectorAll(".closeButton").forEach((button)=>{
         transition: background-color 0.3s;
     }
     .tab-button.selected {
-        background-color: var(--accent);
-        color: var(--text);
+        background-color: var(--secondary);
+
     }
     .tab-button:hover {
-        background-color: var(--accent);
-        color: var(--text);
+        background-color: var(--secondary);
+
     }
     section {
         height: calc(100vh - 130px);
