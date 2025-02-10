@@ -76,7 +76,7 @@ h1 {
 }
 
 section {
-    margin: 24px;
+    padding-top: 24px;
     border-radius: 12px;
     overflow: visible;
     display: flex;
@@ -209,11 +209,15 @@ main {
 .section-pc{
 	display: flex;
 	flex-direction: column;
+    height: calc(100% - 24px);
+    justify-content: flex-start;
+    gap: 24px;
 }
 .description-text {
         text-align: center;
         margin-top: 16px;
 		color: var(--text);
+        max-width: 70vw;
     }
     .description-text h2 {
         font-size: 1.5rem;
